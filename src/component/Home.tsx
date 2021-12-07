@@ -16,7 +16,7 @@ type Data={
 export const Home= () => {
 
     const [text, setText] = useState<string>('');
-    const [amount, setAmount] = useState<number>(0)
+    const [amount, setAmount] = useState<number>()
     const [allData, setAllData] = useState<Data>([])
     const [totalAmount, setTotalAmount] = useState(0)
     const [income, setIncome] = useState(0)
