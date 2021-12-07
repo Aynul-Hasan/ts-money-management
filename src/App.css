@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.height{
+  height: 150px;
+  overflow-y: auto;
+}
+.height::-webkit-scrollbar{
+  display: none;
+}
+.bg{
+  background-color: #282c34;
+}
+.curBal{
+  height: 40px;
+}
+.his{
+  font-weight: 700;
+}
+.ul{
+  background-color: #383838;
+}
